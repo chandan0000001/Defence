@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Job Application: Senior Web Developer</title>
+</head>
+<body>
+  <header>
+    <h1>Job Application: Senior Web Developer</h1>
+    <p>Thank you for your interest in joining our team. Please fill out the application below.</p>
+    <hr />
+  </header>
+
+  <main>
+    <form>
+      <section>
+        <h2>Personal Information</h2>
+
+        <p>
+          <label for="fullname">Full Name:</label><br />
+          <input id="fullname" name="fullname" type="text" required />
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br />
+          <input id="email" name="email" type="email" required />
+        </p>
+
+        <p>
+          <label for="phone">Phone:</label><br />
+          <input id="phone" name="phone" type="tel"  placeholder="+91999952453" />
+        </p>
+
+        <p>
+          <label for="linkedin">LinkedIn Profile URL:</label><br />
+          <input id="linkedin" name="linkedin" type="url" placeholder="https://linkedin.com/in/yourname" />
+        </p>
+      </section>
+
+      <hr />
+
+      
+      
+        <h2>Professional Experience</h2>
+
+        <p>
+          <label for="resume">Upload Your Resume (PDF or DOCX):</label>
+          <br />
+          <input id="resume" name="resume" type="file" accept=".pdf, .doc, .docx" />
+        </p>
+
+        <p>
+          <label for="cover">Cover Letter:</label>
+          <br />
+          <textarea id="cover" name="cover" rows="7" cols="30" placeholder="Tell us why you're a great fit for this role..."></textarea>
+        </p>
+
+        <p>
+          <label for="years">Years of Professional Experience:</label><br />
+          <input id="years" name="years" type="number"  />
+        </p>
+
+        <p>
+          <label for="startdate">Earliest Possible Start Date:</label><br />
+          <input id="startdate" name="startdate" type="date" />
+        </p>
+
+      <hr />
+
+    
+      
+        <h2>Skills &amp; Availability</h2>
+
+          <p>Primary Skillset (Choose One)</p>
+          <p><label><input type="radio" name="primary" value="frontend" checked /> Frontend Development</label></p>
+          <p><label><input type="radio" name="primary" value="backend" /> Backend Development</label></p>
+          <p><label><input type="radio" name="primary" value="fullstack" /> Full-Stack Development</label></p>
+
+        <p>Additional Skills (Select all that apply)</p>
+          <p><label><input type="checkbox" name="skills" value="react" /> React</label></p>
+          <p><label><input type="checkbox" name="skills" value="node" /> Node.js</label></p>
+          <p><label><input type="checkbox" name="skills" value="database" /> Database Management</label></p>
+          <p><label><input type="checkbox" name="skills" value="cloud" /> Cloud / DevOps</label></p>
+     
+
+        <p>
+          <label for="worktype">Preferred Work Type:</label>
+          <br />
+          <select id="worktype" name="worktype">
+            <option value="fulltime">Full-Time</option>
+            <option value="parttime">Part-Time</option>
+            <option value="internship">Internship</option>
+            <option value="remote">Remote</option>
+          </select>
+        </p>
+
+
+      <hr />
+
+  
+    
+        <h2>Final Confirmation</h2>
+
+        <p>
+          <label><input type="checkbox" name="authorized" value="yes" /> I am legally authorized to work in this country.</label>
+        </p>
+
+        <p>
+          <label for="referral">How did you hear about us?</label><br />
+          <input id="referral" name="referral" type="text" placeholder="e.g., LinkedIn, company, friend" />
+        </p>
+
+        <p>
+          <button type="submit">Submit Application</button>
+          <button type="reset">Clear Form</button>
+        </p>
+      </section>
+    </form>
+  </main>
+   
+  
+</body>
+</html>
