@@ -1,0 +1,16 @@
+html{
+    background-color: antiquewhite;
+}
+.one {
+    font-style: italic;
+}
+#two {
+    font-size: 45px;
+    font-style: italic;
+}
+h2{
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
