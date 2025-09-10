@@ -1,0 +1,18 @@
+h1{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+
+    border-width: 15px ;
+    border-style: solid;   
+    /* border-style: dashed;    */
+
+    border-color: greenyellow;
+    border: 10px solid ;
+}
+
+h2{
+    background-color: pink;
+    box-decoration-break:  2pc ;
+}

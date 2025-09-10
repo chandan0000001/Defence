@@ -1,0 +1,40 @@
+/* *{
+    margin: 0px;
+    width: 0px;
+} */
+
+span{
+    color: blue;
+    /* background-color: pink; */
+      height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 50px;
+    padding-top: 23px;
+
+    /* Height and wdth are not allowerd padding and horizontal alow */
+}
+
+h1{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    padding: 12px;
+    margin: 45px;
+    /*Behave inline   */
+    /* display: inline; */
+}
+h2{
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+        border: 10px solid orange;
+    box-sizing: content-box;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+
+    /* margin: 23px; */
+    /* display: inline; */
+}
