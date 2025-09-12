@@ -1,0 +1,72 @@
+#container{
+    background-color: white;
+    height: 200px ;
+    width: 300px;
+    position: relative;
+
+}
+
+
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    /* right: 100px; */
+    top: 50px;
+    /* bottom: 100px; */
+
+
+}
+
+
+#container01{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    /* left: 40px; */
+    background-color: yellow;
+}
+
+.box{
+    box-sizing: border-box;
+    background-color: rgb(45, 45, 209);
+
+}
+
+.first, .third{
+    height: 85px;
+    width: 85px;
+    position: relative;
+}
+
+.third{
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.second , .fourth {
+    height: 85px;
+    width: 170px;
+    position: absolute;
+
+}
+
+
+.second{
+    top: 0px;
+    right: 0px;
+}
+
+.fourth {
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+
+
