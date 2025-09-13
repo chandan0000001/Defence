@@ -1,0 +1,68 @@
+.container{
+    background-color: antiquewhite;
+    height: 600px;
+    display: flex;
+     flex-direction: row;
+    /* flex-direction: column; */
+    /* MATHEMATICALLY>>>>> */
+/*  IF FLEX DIRECTION IS ROW THEM ROW = ROW AND COL = COL*/
+/*  IF FLEX DIRECTION IS COLUMN THEM ROW = COL AND COL = ROW*/
+    /* justify-content: ;  >>>> IT ALWASYS WORK ON MAIN AXIS  */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    justify-content: center;  
+      /* use this to center the object */
+   /*  */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    align-items: center;     
+    /* use this to center the object */
+    /* align-items: end; */ 
+/* Align items works on cross axis  */
+
+/* to appearing display responsive  */
+/* flex-wrap: wrap; */
+/* flex-wrap: nowrap;
+flex-wrap: wrap-reverse; */
+gap: 5px;
+
+
+
+       
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+}
+
+.first{
+    background-color: orange;
+    /* flex-basis: 200px; */
+    /* flex-grow: 1; */
+}
+
+.second{
+     background-color: green;
+     /* flex-shrink: 4; */
+     /* flex-grow: 2; */
+}
+
+.third{
+    background-color: red;
+     /* flex-grow: 3; */
+     align-self : flex-start;
+     align-self: flex-end;
+}
+
+.fourth{
+    background-color: chartreuse;
+     /* flex-grow: 4; */
+
+}
