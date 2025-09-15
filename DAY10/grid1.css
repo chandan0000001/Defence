@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: wheat;
+}
+body{
+    background-color: black;
+}
+
+
+.container{
+    padding: 10px;
+    display: grid;
+    /* grid-template-rows: 200px 200px; */
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: 200px 200px; */
+    grid-template-columns: 1fr 1fr;
+    /* background-color: orange; */
+    gap: 10px;
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+
+
+}
+
+
+.first{
+    background-color: orange;
+}
+.Second{
+    background-color: green;
+}
+.third{
+    background-color: red;
+}
+.fourth{
+    background-color: violet;
+}
