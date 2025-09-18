@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media_tag_multi_page</title>
+</head>
+<body>
+    
+
+
+
+<h2>
+    This is our last leacture on HTML
+</h2>
+
+    <div>
+
+   <h3>Watch this video before scrolling down</h3>
+
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/NGYp1zCBthk"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div>
+        <leacture>
+    <h1>HTML MEDIA</h1>
+
+    <h3>First Principle: The Web is More Than Text and Images</h3>
+    <p>Webpages should deliver diverse content, not just text and images. Previously, playing media required plugins like Flash or QuickTime, which were inefficient and inconsistent.</p>
+
+    <h3>The Core Problem</h3>
+    <p>Embedding video/audio in a standardized it is essential for universal browser compatibility.</p>
+
+    <h3>Solution: HTML5 &lt;video&gt; and &lt;audio&gt; Tags</h3>
+    <p>Dedicated tags for embedding media with built-in controls.</p>
+
+    <h3>Part 1: Basics</h3>
+    <p>Use the &lt;video&gt; tag with the controls attribute for a functional video player.</p>
+<pre>
+<code>
+&lt;iframe width="560" height="315"
+    src="https://www.youtube.com/embed/NGYp1zCBthk"
+    title="YouTube video player"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen&gt;
+&lt;/iframe&gt;
+</code>
+</pre>
+    <h3>Part 2: Attributes</h3>
+    <ul>
+        <li><strong>width/height:</strong> Set dimensions.</li>
+        <li><strong>autoplay:</strong> Starts playback automatically (requires muted).</li>
+        <li><strong>loop:</strong> Restarts video after finishing.</li>
+        <li><strong>poster:</strong> Displays an image before playback.</li>
+    </ul>
+
+    <h3>Part 3: &lt;audio&gt; Tag</h3>
+    <p>Works like &lt;video&gt;, but for audio files.</p>
+
+    <h3>Part 4: Advanced</h3>
+    <ul>
+        <li><strong>Problem:</strong> Browser format incompatibility.</li>
+        <li><strong>Solution:</strong> Use multiple &lt;source&gt; elements for fallback formats.</li>
+        <li><strong>Accessibility:</strong> Add captions/subtitles with &lt;track&gt;.</li>
+    </ul>
+
+    <h3>Methods</h3>
+    <ul>
+        <li><strong>Robust:</strong> Use &lt;source&gt; for maximum compatibility.</li>
+        <li><strong>Simple:</strong> Use src for quick embedding (less reliable).</li>
+    </ul>
+
+    <h3>Comparison Table</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th><strong>Feature</strong></th>
+                <th><strong>Example 1 (&lt;source&gt; Method)</strong></th>
+                <th><strong>Example 2 (src Method)</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Browser Compatibility</strong></td>
+                <td><strong>Excellent.</strong> Provides multiple formats as fallbacks.</td>
+                <td><strong>Good, but not guaranteed.</strong> Relies on a single format.</td>
+            </tr>
+            <tr>
+                <td><strong>Flexibility</strong></td>
+                <td>High. You can list many different formats.</td>
+                <td>Low. Only one format is possible.</td>
+            </tr>
+            <tr>
+                <td><strong>Simplicity</strong></td>
+                <td>More complex. Requires multiple lines and files.</td>
+                <td>Very simple. Requires only one line.</td>
+            </tr>
+            <tr>
+                <td><strong>Fallback for Old Browsers</strong></td>
+                <td>Excellent. Provides custom text if the &lt;video&gt; tag fails.</td>
+                <td>None.</td>
+            </tr>
+            <tr>
+                <td><strong>Best Use Case</strong></td>
+                <td><strong>Public-facing websites</strong> where you need to support all users.</td>
+                <td><strong>Quick tests, internal projects,</strong> or when you are 100% certain your target audience supports your one format.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Conclusion: Which One Should You Use?</h3>
+    <p>For public websites, prefer the &lt;source&gt; method for compatibility. The src method is simpler but riskier.</p>
+
+    <h3>Creating the Copyright Symbol ©</h3>
+    <h4>1. Using the Entity Name (Recommended)</h4>
+    <p>Code: &amp;copy;</p>
+    <p>Example:</p>
+<pre><code>&lt;footer&gt;
+    &lt;p&gt;Copyright &copy; 2024 My Website.&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+
+    <h4>2. Using the Entity Number</h4>
+    <p>Code: &amp;#169;</p>
+    <p>Example:</p>
+<pre><code>&lt;footer&gt;
+    &lt;p&gt;Copyright &amp;#169; 2024 My Website.&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+
+    <h3>Other Common Symbol Entities</h3>
+    <p>Use entity names or numbers for symbols like &lt;, &gt;, &amp;, etc.</p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th><strong>Symbol</strong></th>
+                <th><strong>Description</strong></th>
+                <th><strong>Entity Name</strong></th>
+                <th><strong>Entity Number</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>©</td>
+                <td>Copyright</td>
+                <td>&amp;copy;</td>
+                <td>&amp;#169;</td>
+            </tr>
+            <tr>
+                <td>®</td>
+                <td>Registered Trademark</td>
+                <td>&amp;reg;</td>
+                <td>&amp;#174;</td>
+            </tr>
+            <tr>
+                <td>™</td>
+                <td>Trademark</td>
+                <td>&amp;trade;</td>
+                <td>&amp;#8482;</td>
+            </tr>
+            <tr>
+                <td>&lt;</td>
+                <td>Less-than (for showing code)</td>
+                <td>&amp;lt;</td>
+                <td>&amp;#60;</td>
+            </tr>
+            <tr>
+                <td>&gt;</td>
+                <td>Greater-than (for showing code)</td>
+                <td>&amp;gt;</td>
+                <td>&amp;#62;</td>
+            </tr>
+            <tr>
+                <td>&amp;</td>
+                <td>Ampersand</td>
+                <td>&amp;amp;</td>
+                <td>&amp;#38;</td>
+            </tr>
+            <tr>
+                <td>"</td>
+                <td>Double Quote</td>
+                <td>&amp;quot;</td>
+                <td>&amp;#34;</td>
+            </tr>
+            <tr>
+                <td>€</td>
+                <td>Euro Sign</td>
+                <td>&amp;euro;</td>
+                <td>&amp;#8364;</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Why use entities for ?</strong></p>
+    <p>To display &lt;p&gt; as text, not as an HTML tag, use &amp;lt;p&amp;gt;.</p>
+
+        </leacture>
+    </div>
+</body>
+<footer>
+    <h3>
+        END OF HTML LECTURE SERIES
+    </h3>
+    <h4>
+        <a href="../LAST_PAGE/last.html">click for next</a>
+    </h4>
+</footer>
+</html>

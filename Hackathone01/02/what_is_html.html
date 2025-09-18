@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is HTML</title>
+</head>
+<body>
+    
+
+
+  <h1>HTML : Hyper Text Markup Language</h1>
+    
+    <p>HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage. It is the standard language used to create and structure the content of a webpage.</p>
+    
+    <ul>
+        <li><strong>HyperText:</strong> This refers to the ability to create links that connect web pages to one another.</li>
+        <li><strong>Markup Language:</strong> This means you use "tags" to surround your content, giving that content meaning and structure.</li>
+    </ul>
+    
+  <p>First Website: <a href="https://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">Click Here</a></p>
+    
+    <h2>Install Required Software:</h2>
+    
+    <h3>1. Install Visual Studio Code</h3>
+    <p>This is a free piece of software from Microsoft that you will use to write your code.</p>
+    <p><a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a></p>
+    
+    <h3>2. Install Visual Studio Code Extensions</h3>
+    <ul>
+        <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server" target="_blank">Live Preview</a></li>
+        <li><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank">Prettier</a></li>
+    </ul>
+
+    <strong><h3>After copying the code from here don’t run it in the browser’s HTML runner.Try running it on your system instead </h3></strong>
+
+    <div>
+    <h3>
+        Watch this video before scrolling down
+    </h3>
+   <iframe
+  width="560" height="315"
+  src="https://www.youtube.com/embed/GkZN_-HMCJ8?rel=0&modestbranding=1"
+  title="What is HTML | Heading | Paragraph | Anchor tag | Image element | HTML Full Course #01"
+  frameborder="0"
+  allow=" autoplay; picture-in-picture"
+  allowfullscreen>
+</iframe>
+</div>
+    <hr>
+    
+    <h2>1: The Heading (&lt;h1&gt; to &lt;h6&gt;)</h2>
+    <p><strong>What it is:</strong> Headings are tags used to define titles and subtitles on your page. They are crucial for creating a logical hierarchy and outline for your content.</p>
+    <pre>
+
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</pre>
+    
+    <p><strong>The Purpose:</strong> To structure your document in a way that is understandable to both humans and screen readers.</p>
+    
+    <h2>2. The Paragraph (&lt;p&gt;)</h2>
+    <p> The paragraph tag is the most common tag. It's for grouping sentences and blocks of text together.</p>
+
+
+    <p><strong>Tag:</strong> &lt;p&gt;</p>
+
+    <p><strong>The Purpose:</strong> To define a paragraph of text.  You should not use multiple line breaks you should use multiple &lt;p&gt; tags.</p>
+    
+    <pre>
+&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, hic.c.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, hic.c.&lt;/p&gt;
+    </pre>
+    
+
+
+
+    <h2>3: HTML Horizontal Rules</h2>
+
+
+    <p>The &lt;hr&gt; tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.</p>
+    <pre>
+        <hr>
+        <p>Above line shows the example</p>
+&lt;p&gt;This is the first topic.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This is a completely different topic.&lt;/p&gt;
+    </pre>
+    
+
+
+
+    <h2>4. The Line Break Tag: &lt;br&gt;</h2>
+
+
+    <p>This yag works like an "Enter key".</p>
+    <ul>
+        <li><strong>Purpose:</strong> Creates a single line break.</li>
+        <li><strong>Example:</strong></li>
+    </ul>
+    
+    <pre>
+&lt;p&gt;221B Baker Street&lt;br&gt;
+London, England&lt;/p&gt;
+    </pre>
+    
+
+
+    <h2>5. List Elements (&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;)</h2>
+    <p><strong>What it is:</strong> These tags are used to create lists.</p>
+    <p><strong>The Tags:</strong></p>
+    <ul>
+        <li>&lt;ul&gt;: An <strong>U</strong>nordered <strong>L</strong>ist. It creates a bulleted pointed list.</li>
+        <li>&lt;ol&gt;: An <strong>O</strong>rdered <strong>L</strong>ist. It creates a numbered list.</li>
+        <li>&lt;li&gt;: A <strong>L</strong>ist <strong>I</strong>tem. Each item in either type of list must be wrapped in an &lt;li&gt; tag.</li>
+    </ul>
+    
+    <p><strong>The Purpose:</strong> To group related items together in a list format.</p>
+    <p><strong>Example (Nesting in action):</strong></p>
+    <p>The &lt;li&gt; elements are nested as children inside the &lt;ul&gt; parent.</p>
+    
+    <pre>
+&lt;ul&gt;
+  &lt;li&gt;Apex Legend&lt;/li&gt;
+  &lt;li&gt;Counter Strike&lt;/li&gt;
+  &lt;li&gt;SnapDragon X Elite&lt;/li&gt;
+  &lt;li&gt;Over_clock_CPU&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Call_Of_Duty.&lt;/li&gt;
+  &lt;li&gt;Intel I 9 HX &lt;/li&gt;
+  &lt;li&gt; Acer collab with Apple &lt;/li&gt;
+  &lt;li&gt;Samsung collab with Apple&lt;/li&gt;
+&lt;/ol&gt;
+    </pre>
+    
+    <h2>6: The Anchor Tag (&lt;a&gt;)</h2>
+    <p><strong>What it is:</strong> The Anchor tag is what makes the web "hypertext." It is used to create a hyperlink.</p>
+    <p><strong>The Tag:</strong> &lt; a &gt;</p>
+    <p><strong>The Purpose:</strong> To make text (or an image) clickable, allowing users to navigate. </p>
+    
+
+
+    <pre>
+&lt;a href="https://www.coderarmy.in/"&gt;Visit Coder Army&lt;/a&gt;
+    </pre>
+
+
+    
+    <h3>a.HTML Links - The target Attribute</h3>
+    
+    <ul>
+        <li><code>_self</code> - Default. Opens the document in the same window/tab as it was clicked</li>
+        <li><code>_blank</code> - Opens the document in a new window or tab</li>
+    </ul>
+    <p>But the default is open in same tab</p>
+
+
+
+    <h2>7. The Image Tag (&lt;img&gt;)</h2>
+    <p> The Image tag is a 'self-closing tag' used to embed an image onto your page.</p>
+    <p> &lt;img&gt;</p>
+    <ul>
+        <li>src (source): The path or URL to the image file. This is mandatory.</li>
+        <li>alt (alternative text): A description of the image for screen readers for the visually impaired will read this out and for when the image fails to load.</li>
+    </ul>
+    
+    <pre>
+&lt;img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fdog%2F&psig=AOvVaw0H2GLnifbLX66H-hFXtVkR&ust=1757917934784000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCFpuHQ148DFQAAAAAdAAAAABAL" height="300px" width="300px" alt="This is Dog Photo"&gt;
+    </pre>
+    
+    <hr>
+
+
+    <strong>
+        All Code try to write in VS Code Editor and see the output in Live Preview Extension
+    </strong>
+
+
+</body>
+<footer>
+    <h3>
+        <strong>
+            End of Lecture : Have a good `Day`
+        </strong>
+    </h3><strong>
+         Go for the next topic: <a href="../03/HTML_Nested_Lists_Tables.html">What is nested  table and nested list</a>
+    </strong>
+</footer>
+</html>
