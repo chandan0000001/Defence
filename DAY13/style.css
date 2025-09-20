@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    perspective: 800px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color:orange;
+    cursor: pointer;
+    /* transition-property: background-color; */
+    /* transition-property: all; */
+    /* transition-property: width; */
+    /* transition-property: height; */
+    /* transition-duration: 3s; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease-in; */
+    /* transition-delay: 2s; */
+    /* transition: all 3s ease-in 2s; */
+    /* transition: all 3s; */
+    /* transform: translateY(-300px) */
+    /* transform: translate(200px,300px); */
+    /* transform: rotate(-310deg); */
+    /* transform: skewX(60deg); */
+    /* transform: skewy(60deg); */
+    font-size: 50px;
+    color: white;
+    animation-name: moving;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* border-radius:50% ; */
+}
+
+@keyframes moving {
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* .box:hover{ */
+    /* background-color: purple; */
+    /* width: 300px; */
+    /* height: 300px; */
+    /* Scale height double and width */
+    /* transform: scaley(2); */
+    /* transform: translateZ(-200px); */
+    /* transform: rotateZ(450deg); */
+/* } */
