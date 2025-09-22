@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1e1e;
+    font-family: sans-serif;
+    color: #a0a0a0;
+    line-height: 1.6;
+}
+
+.main-container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 350px 1fr;
+    gap: 50px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.sidebar{
+    height: 90vh;
+    background-color:#202020;
+    border: 1px solid #9e0202;
+    border-radius: 16px;
+    padding: 40px;
+    position: sticky;
+    top: 40px;
+}
+
+.main-content{
+    background-color:#2a2a2a;
+    border: 1px solid #430909;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+
+/* Profile section */
+
+.profile{
+    text-align: center;
+}
+
+
+.profile img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+}
+
+.profile h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+
+.profile p{
+    background-color: #1e1e1e;
+    padding: 5px 15px;
+    color: #d3df2b;
+    border: 1px solid #3a3a3a;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+/* contact information */
+.contact{
+    margin-top: 30px;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 20px; 
+}
+
+
+.label{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color:#a0a0a0;
+}
+
+.value{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+
+.email{
+    margin-bottom: 14px;
+}
+.phone{
+    margin-bottom: 15px;
+}
+
+/* social media */
+.social
+{
+     margin-top: 30px;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 20px; 
+}
+
+.social img{
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+    filter: brightness(0) saturate(100%) invert(11%) sepia(99%) saturate(5066%) hue-rotate(246deg) brightness(97%) contrast(140%);
+    transition: filter 0.3s ease;
+
+}
+.social img:hover{
+filter: brightness(0) saturate(100%) invert(15%) sepia(63%) saturate(4441%) hue-rotate(352deg) brightness(84%) contrast(122%);
+}
+
+
+/* Main content */
+
+/* navigation */
