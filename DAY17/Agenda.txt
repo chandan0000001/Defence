@@ -1,0 +1,15 @@
+stack vs heap 
+memeory management 
+how data woked and wher data stored or proceed 
+what is satck and what is heap and what is ram ?
+always use fast thought principal 
+how to manage the memory in a better way
+
+
+
+Memory management: 
+all app are stored in hard disk / ssd 
+if i want to run this then that code must to the set to inside the ram and cpu run this and execute this ram to cpu data is so fst 
+hard disk andd ssd are permanet storage ram are temprary
+
+
