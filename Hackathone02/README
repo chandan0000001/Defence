@@ -1,6 +1,56 @@
-hey there this is chandan i hope you see my code there was mistake occured sun part is not moving to the center in the mobile view i use AI like claude 4 but did not get satisfied result so i request to you "FIX THIS ISSUE OR TOLD ME HOW CAN I FIX THIS ISSUE "
-HAVE A GOOD DAY..........................................................
-/////////////////////////////////////////////
-............................
-,,,,,,,,,,,,,,,,,,
-=========
+# Second01 — Static Web Project
+
+**Live Demo:** https://second01.netlify.app/
+
+---
+
+##  Project Description
+
+Second01 is a static, visually engaging web page built purely with **HTML** and **CSS**.  
+It showcases animations, layout effects, and a dynamic “sun / celestial” element (or whatever your visual metaphor is) as you scroll or view on different screen sizes.
+
+---
+
+##  Structure
+
+| File / Folder             | Purpose |
+|---------------------------|---------|
+| `index.html`              | The main HTML page |
+| `style.css`               | Core styling, layout, media queries |
+| `image.png` / other imgs  | Assets for visual elements |
+| `README.md`               | This documentation |
+
+---
+
+##  Tech Stack & Tools
+
+- **HTML5**
+- **CSS3** (Flexbox, Grid, Animations, Transitions)
+- Responsive design using **media queries**
+
+No JavaScript or external libraries used (for now). Keeps things simple and fast.
+
+
+
+## ⚠️ Known Issues & Improvements
+
+- The “sun” element (or the main visual) doesn’t center properly on smaller/mobile devices.  
+  → Could be due to fixed widths, absolute positioning, or missing responsive offsets.
+- Some image assets may overflow or stretch on extreme viewport sizes.
+- Accessibility (alt attributes, contrast) can be improved.
+
+
+
+## 🛠 How to Run / View Locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/chandan0000001/Defence.git
+   cd Defence/Hackathone02
+2. Open index.html in your browser.
+(No build step or server needed — it’s static.)
+
+3. Use your browser’s responsive/dev tools to test mobile/tablet layouts.
+
+
+HAVE A GOOD DAY ❤️
