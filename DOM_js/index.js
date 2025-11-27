@@ -1,0 +1,1 @@
+//If there is no code present in js then there is Window global obj is present 
